@@ -32,3 +32,23 @@ ssh
 | Diagnostic Console | **WSL** | KR260 | KR260 |
 | Qt Viewer | Windows | Windows | Windows |
 | STM32 | Windows | Windows | STM32 |
+
+## Git 및 PR 관리
+
+### PR 규칙
+- PR 제목에 작업 기간, 작업명, 작업자 이름을 가능한 한 포함
+- 변경 목적과 주요 내용을 본문에 가능한 한 기록
+- 검증 방법과 결과를 함께 가능한 한 포함
+
+```text
+26/11/03 ~ 26/11/03 메이크 파일 수정 - 이양배
+```
+
+### Commit 규칙
+- 메시지는 `영역: 변경 내용` 형식으로 작성
+
+```bash
+git commit -m "web: 복약 일정 중복 등록 방지"
+git commit -m "uart: RESULT 프레임 오류 처리 추가"
+git commit -m "motor: X축 원점 복귀 로직 수정"
+```
