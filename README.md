@@ -10,8 +10,8 @@
 구현사항 : 
 결과물목록 : FSM, FLOWCHART
 
-구성환경
-Vivado 2026.1
-Vitis 2026.1
-ubuntu 24.04.2 LTS
-fpga kr 260
+구성환경 및 툴  
+Vivado 2026.1  
+Vitis 2026.1  
+ubuntu 24.04.2 LTS  
+fpga kr 260  
