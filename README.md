@@ -33,6 +33,17 @@ ssh
 | Qt Viewer | Windows | Windows | Windows |
 | STM32 | Windows | Windows | STM32 |
 
+## 이슈 작성 방법
+
+제목: [BUG] AXI DMA 전송 시 interrupt 발생하지 않음  
+현상: DMA transfer 시작 후 IRQ handler가 호출되지 않음  
+기대 동작: DMA 완료 후 IRQ 발생  
+재현 방법: dma_test 실행 → transfer start  
+로그: dmesg 내용 첨부(이미지)  
+확인한 것: MMIO register 값 정상, DT의 IRQ 번호 확인 필요  
+담당: 홍길동  
+
+
 ## Git 및 PR 관리
 
 ### PR 규칙
