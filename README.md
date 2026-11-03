@@ -7,7 +7,7 @@
 팀장 : 이양배  
 팀원 : 석민정, 신유지  
 주제 : 로직분석기
-구현사항 : 
+구현사항 : ...........  
 결과물목록 : FSM, FLOWCHART
 
 구성환경 및 툴  
@@ -15,8 +15,9 @@ Vivado 2026.1
 Vitis 2026.1  
 ubuntu 24.04.2 LTS  
 fpga kr 260  
-wsl2
-MobaXterm
+wsl2  
+MobaXterm  
+ssh  
 
 개발 방식
 | 종류 | 작성 | 빌드 | 실행 |
