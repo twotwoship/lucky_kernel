@@ -12,13 +12,16 @@
 일정 및 업무관리 : Jira
 
 구성환경 및 툴  
+
 Vivado 2026.1  
 Vitis 2026.1  
 ubuntu 24.04.2 LTS  
-fpga kr 260  
+fpga kr 260  Boot FW 1.07 / 2026.1
+Linux Kernel	6.8.0-1015-xilinx
 wsl2  
 MobaXterm  
 ssh  
+
 
 ## 개인 계정에서 개발하되 깃 저장소 관리는 공용 그룹 lucky
 
