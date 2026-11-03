@@ -15,3 +15,4 @@ Vivado 2026.1
 Vitis 2026.1  
 ubuntu 24.04.2 LTS  
 fpga kr 260  
+wsl2
